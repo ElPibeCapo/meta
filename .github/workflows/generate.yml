@@ -1,0 +1,80 @@
+name: Generate and Deploy Meta
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar Poetry
+        run: pip install poetry
+
+      - name: Instalar dependencias
+        run: poetry install --no-root
+
+      - name: Crear directorios
+        run: mkdir -p upstream launcher caches
+
+      - name: Generar Mojang
+        run: poetry run updateMojang && poetry run generateMojang
+        continue-on-error: true
+
+      - name: Generar Fabric
+        run: poetry run updateFabric && poetry run generateFabric
+        continue-on-error: true
+
+      - name: Generar Forge
+        run: poetry run updateForge && poetry run generateForge
+        continue-on-error: true
+
+      - name: Generar NeoForge
+        run: poetry run updateNeoForge && poetry run generateNeoForge
+        continue-on-error: true
+
+      - name: Generar Quilt
+        run: poetry run updateQuilt && poetry run generateQuilt
+        continue-on-error: true
+
+      - name: Generar Java
+        run: poetry run updateJava && poetry run generateJava
+        continue-on-error: true
+
+      - name: Generar indice
+        run: poetry run python -m meta.run.index
+        continue-on-error: true
+
+      - name: Preparar pages
+        run: |
+          mkdir -p pages/v1
+          if [ -d launcher ]; then
+            cp -r launcher/. pages/v1/
+            echo "Archivos generados:"
+            ls pages/v1/ | head -10
+          else
+            echo "Warning: directorio launcher vacio"
+          fi
+
+      - name: Deploy a GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./pages
+          keep_files: false
+          commit_message: "meta: actualizar (${{ github.run_number }})"
