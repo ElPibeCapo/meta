@@ -70,6 +70,12 @@ jobs:
           else
             echo "Warning: directorio launcher vacio"
           fi
+          if [ -d static/v1 ]; then
+            cp -r static/v1/. pages/v1/
+            echo "Contenido estatico Beteliney copiado (beteliney-packs, malware, news)"
+          else
+            echo "Warning: directorio static/v1 no existe, contenido Beteliney NO se desplegara"
+          fi
 
       - name: Deploy a GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
