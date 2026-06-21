@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "id": "vanilla-optimizado",
+  "name": "Vanilla Optimizado",
+  "description": "Minecraft vanilla con el máximo rendimiento posible. FPS x2–x4 sin cambiar el gameplay.",
+  "longDescription": "## Vanilla Optimizado\n\nSodium reemplaza el render de vainilla con uno propio hasta 4 veces más rápido. Lithium optimiza la lógica del servidor (chunks, entidades, colisiones). Iris añade soporte de shaders sin coste fijo. FerriteCore reduce el uso de RAM hasta 500 MB. ImmediatelyFast optimiza el renderizado inmediato (UI, entidades). EntityCulling omite el render de entidades fuera del campo visual.\n\nCompatible con cualquier servidor vanilla, SMP o Hypixel. No requiere mods en el servidor.",
+  "version": "1.0.0",
+  "minecraft": "1.21.1",
+  "loader": "fabric",
+  "loaderVersion": "0.16.9",
+  "icon": "",
+  "featured": true,
+  "tags": ["rendimiento", "vanilla", "fabric", "optimizacion"],
+  "screenshots": [],
+  "mods": [
+    { "provider": "modrinth", "projectId": "AANobbMI", "version": "", "filename": "sodium.jar" },
+    { "provider": "modrinth", "projectId": "gvQqBUqZ", "version": "", "filename": "lithium.jar" },
+    { "provider": "modrinth", "projectId": "YL57xq9U", "version": "", "filename": "iris.jar" },
+    { "provider": "modrinth", "projectId": "nmDcB62a", "version": "", "filename": "modernfix.jar" },
+    { "provider": "modrinth", "projectId": "uXXizFIs", "version": "", "filename": "ferritecore.jar" },
+    { "provider": "modrinth", "projectId": "NNAgCjsB", "version": "", "filename": "entityculling.jar" },
+    { "provider": "modrinth", "projectId": "5ZwdcRci", "version": "", "filename": "immediatelyfast.jar" },
+    { "provider": "modrinth", "projectId": "P7dR8mSH", "version": "", "filename": "fabric-api.jar" }
+  ]
+}

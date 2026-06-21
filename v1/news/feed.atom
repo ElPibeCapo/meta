@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>BetelineyLauncher — Noticias</title>
+  <link href="https://github.com/ElPibeCapo/BetelineyLauncher" rel="alternate"/>
+  <link href="https://elpibecapo.github.io/meta/v1/news/feed.atom" rel="self"/>
+  <id>https://github.com/ElPibeCapo/BetelineyLauncher</id>
+  <updated>2026-06-21T00:00:00Z</updated>
+
+  <entry>
+    <title>BetelineyLauncher v8.3.0 ya disponible</title>
+    <link href="https://github.com/ElPibeCapo/BetelineyLauncher/releases/tag/v8.3.0" rel="alternate"/>
+    <id>https://github.com/ElPibeCapo/BetelineyLauncher/releases/tag/v8.3.0</id>
+    <updated>2026-06-19T00:00:00Z</updated>
+    <summary type="html">
+      Primera release publica de BetelineyLauncher. Incluye diagnostico inteligente de logs (18 tipos de error detectados), 7 perfiles JVM calibrados con auto-deteccion de iGPU, BetelineyPacks (plataforma propia de modpacks curados), verificacion de conflictos de mods antes de lanzar, crash reporter con backtrace automatico, e importador de instancias desde GDLauncher Carbon. Builds para Linux y Windows via CI.
+    </summary>
+  </entry>
+</feed>

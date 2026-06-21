@@ -1,0 +1,21 @@
+{
+  "formatVersion": 1,
+  "id": "pvp-competitivo",
+  "name": "PvP Competitivo",
+  "description": "Mods de PvP competitivo: rendimiento estable bajo combate intenso, sin trampas, enfocado en habilidad real.",
+  "longDescription": "## PvP Competitivo\n\nPensado para servers de PvP organizado (UHC, Survival Games, practicas). Lithium y Sodium dan FPS estables bajo combate intenso. No incluye ningun mod de ventaja injusta (sin reach hacks, sin auto-clickers) — solo optimizacion y calidad de vida.\n\nIncluye Krypton (optimiza la capa de red del cliente, reduce lag en combate multijugador) y Fabric API como dependencia base.",
+  "version": "1.0.0",
+  "minecraft": "1.21.1",
+  "loader": "fabric",
+  "loaderVersion": "0.16.9",
+  "icon": "",
+  "featured": true,
+  "tags": ["pvp", "competitivo", "fabric", "rendimiento"],
+  "screenshots": [],
+  "mods": [
+    { "provider": "modrinth", "projectId": "AANobbMI", "version": "", "filename": "sodium.jar" },
+    { "provider": "modrinth", "projectId": "gvQqBUqZ", "version": "", "filename": "lithium.jar" },
+    { "provider": "modrinth", "projectId": "fQEb0iXm", "version": "", "filename": "krypton.jar" },
+    { "provider": "modrinth", "projectId": "P7dR8mSH", "version": "", "filename": "fabric-api.jar" }
+  ]
+}

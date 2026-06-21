@@ -1,0 +1,23 @@
+{
+  "formatVersion": 1,
+  "id": "pesado-neoforge",
+  "name": "Modpack Pesado NeoForge",
+  "description": "Base solida para un modpack grande en NeoForge: inventario, automatizacion, viaje rapido y calidad de vida.",
+  "longDescription": "## Modpack Pesado NeoForge\n\nNo es un modpack completo, es una base verificada para construir uno. Incluye JEI (recetas), Curios API (slots de accesorios, dependencia comun de muchos mods grandes), Create (automatizacion mecanica), AppleSkin (info nutricional), Waystones (viaje rapido) e Iron Jetpacks (movilidad).\n\nPensado como punto de partida: agrega tus propios mods de contenido (Twilight Forest, Iron's Spells, etc.) sobre esta base ya probada.",
+  "version": "1.0.0",
+  "minecraft": "1.21.1",
+  "loader": "neoforge",
+  "loaderVersion": "21.1.0",
+  "icon": "",
+  "featured": true,
+  "tags": ["neoforge", "pesado", "automatizacion", "base"],
+  "screenshots": [],
+  "mods": [
+    { "provider": "modrinth", "projectId": "u6dRKJwZ", "version": "", "filename": "jei.jar" },
+    { "provider": "modrinth", "projectId": "vvuO3ImH", "version": "", "filename": "curios.jar" },
+    { "provider": "modrinth", "projectId": "LNytGWDc", "version": "", "filename": "create.jar" },
+    { "provider": "modrinth", "projectId": "EsAfCjCV", "version": "", "filename": "appleskin.jar" },
+    { "provider": "modrinth", "projectId": "LOpKHB2A", "version": "", "filename": "waystones.jar" },
+    { "provider": "modrinth", "projectId": "DWIEOniQ", "version": "", "filename": "iron-jetpacks.jar" }
+  ]
+}
