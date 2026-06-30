@@ -5,6 +5,20 @@
     "versions": [
         {
             "recommended": true,
+            "releaseTime": "2026-06-30T12:45:43+00:00",
+            "requires": [
+                {
+                    "equals": "26.3-snapshot-2",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "sha256": "226bc2984f85fd00c561c1abf3370985e0b7545fe4ac44a6d5f85dfdeb92ed8b",
+            "type": "release",
+            "version": "26.3-snapshot-2",
+            "volatile": true
+        },
+        {
+            "recommended": true,
             "releaseTime": "2026-06-23T11:57:02+00:00",
             "requires": [
                 {
@@ -6098,20 +6112,6 @@
             "releaseTime": "2020-10-15T21:23:03+00:00",
             "requires": [
                 {
-                    "equals": "18w50a",
-                    "uid": "net.minecraft"
-                }
-            ],
-            "sha256": "cf4105fa522a22ee96e5acf44094b0b44d8df6f3c29edd2266212cf5a95f2ae3",
-            "type": "release",
-            "version": "18w50a",
-            "volatile": true
-        },
-        {
-            "recommended": true,
-            "releaseTime": "2020-10-15T21:23:03+00:00",
-            "requires": [
-                {
                     "equals": "18w49a",
                     "uid": "net.minecraft"
                 }
@@ -7155,6 +7155,20 @@
             "sha256": "5add9026d4bc31f7d553b80590d6b46bdc959e0c089963eabc7ae1a1a668625c",
             "type": "release",
             "version": "1.14.1 Pre-Release 2",
+            "volatile": true
+        },
+        {
+            "recommended": true,
+            "releaseTime": "2020-10-15T21:22:00+00:00",
+            "requires": [
+                {
+                    "equals": "18w50a",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "sha256": "941e6386c0b1e7ad0460b85804bc4054cac38fe1227a6bbf4ac7d477d653702c",
+            "type": "release",
+            "version": "18w50a",
             "volatile": true
         }
     ]

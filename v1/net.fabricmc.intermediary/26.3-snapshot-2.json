@@ -2,21 +2,21 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "net.fabricmc:intermediary:18w50a",
+            "name": "net.fabricmc:intermediary:26.3-snapshot-2",
             "url": "https://maven.fabricmc.net"
         }
     ],
     "name": "Intermediary Mappings",
     "order": 11,
-    "releaseTime": "2020-10-15T21:22:00+00:00",
+    "releaseTime": "2026-06-30T12:45:43+00:00",
     "requires": [
         {
-            "equals": "18w50a",
+            "equals": "26.3-snapshot-2",
             "uid": "net.minecraft"
         }
     ],
     "type": "release",
     "uid": "net.fabricmc.intermediary",
-    "version": "18w50a",
+    "version": "26.3-snapshot-2",
     "volatile": true
 }
