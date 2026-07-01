@@ -3589,14 +3589,14 @@
         },
         {
             "recommended": true,
-            "releaseTime": "2022-11-02T14:59:16+00:00",
+            "releaseTime": "2022-11-02T14:59:10+00:00",
             "requires": [
                 {
                     "equals": "22w44a",
                     "uid": "net.minecraft"
                 }
             ],
-            "sha256": "95a67ef03acc1edc015fc52952c65e97c533a8ddbb05d6210a804e0678338354",
+            "sha256": "e55d19a3021d60874121767a06d63afeb4cc0b50eb9f46addea2568f3511c05e",
             "type": "release",
             "version": "22w44a",
             "volatile": true
