@@ -37,11 +37,6 @@
             "uid": "net.minecraft.java"
         },
         {
-            "name": "Forge",
-            "sha256": "e460eb2b3e9c4d8b711914a10b60428184b61d19a179ebff85de822f77837840",
-            "uid": "net.minecraftforge"
-        },
-        {
             "name": "NeoForge",
             "sha256": "99d1c1f1271f6565f8e45f53905efa57b908123314137dd4f971a33c0d6654c2",
             "uid": "net.neoforged"
