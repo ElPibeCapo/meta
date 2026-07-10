@@ -55,6 +55,11 @@
             "name": "LWJGL 3",
             "sha256": "758a6c79aee8ac4467c00fc253545c3b4d33baab7f7bea83e389ba656c22af33",
             "uid": "org.lwjgl3"
+        },
+        {
+            "name": "Quilt Loader",
+            "sha256": "bdd00c835e29adfb70bce06e557f88778797d281e8b70f76757812b2732684fd",
+            "uid": "org.quiltmc.quilt-loader"
         }
     ]
 }
