@@ -3071,14 +3071,14 @@
         },
         {
             "recommended": true,
-            "releaseTime": "2023-06-12T14:22:16+00:00",
+            "releaseTime": "2023-06-12T14:22:17+00:00",
             "requires": [
                 {
                     "equals": "1.20.1",
                     "uid": "net.minecraft"
                 }
             ],
-            "sha256": "3b4ff10961008731373763c4443174b90f2f35d27ffda999dd8faf7e2846b44a",
+            "sha256": "acfb8d54d9573800613e9bb98391c84d56ea4b4014d22b77aade909ee9f26a86",
             "type": "release",
             "version": "1.20.1",
             "volatile": true
