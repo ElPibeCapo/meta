@@ -2993,13 +2993,13 @@
         },
         {
             "recommended": false,
-            "releaseTime": "2018-11-30T21:31:40+00:00",
+            "releaseTime": "2018-11-30T21:31:42+00:00",
             "requires": [
                 {
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "sha256": "857bc9438ed1b6ece100718c4886cdf8ee10d2a82d25040fa984999bd3778493",
+            "sha256": "e34e72c85efc57408fc9a37783e512dc9d0b3a4d17b0b1e283d0f4977da518a5",
             "type": "release",
             "version": "0.1.0.49"
         },
