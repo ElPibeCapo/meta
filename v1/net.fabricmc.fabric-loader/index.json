@@ -677,13 +677,13 @@
         },
         {
             "recommended": false,
-            "releaseTime": "2022-11-29T19:59:19+00:00",
+            "releaseTime": "2022-11-29T19:58:48+00:00",
             "requires": [
                 {
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "sha256": "628c2851b1ecbec2253188a8b1b09dcf5f5b3803c8c99f505209852920f6973c",
+            "sha256": "c2449702f6f30c327eaaba5e2b2b78ce021ed077d7789a9e16e75b13f3e104e7",
             "type": "release",
             "version": "0.14.11"
         },
