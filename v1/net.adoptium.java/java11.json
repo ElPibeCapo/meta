@@ -100,6 +100,25 @@
         },
         {
             "checksum": {
+                "hash": "44b9c5d95a95c81f96c857212e8b035bcc6c92d5910b7bb2c8b8b0b24d4f09ad",
+                "type": "sha256"
+            },
+            "downloadType": "archive",
+            "name": "eclipse_temurin_jre11.0.32+1",
+            "packageType": "jre",
+            "releaseTime": "2026-08-24T08:23:33+00:00",
+            "runtimeOS": "linux-arm32",
+            "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32.1%2B1/OpenJDK11U-jre_arm_linux_hotspot_11.0.32.1_1.tar.gz",
+            "vendor": "eclipse",
+            "version": {
+                "build": 1,
+                "major": 11,
+                "minor": 0,
+                "security": 32
+            }
+        },
+        {
+            "checksum": {
                 "hash": "87ab4bf8dec10775d986957bc313816678f9227f1d033d7d6e6a1d00dace5b95",
                 "type": "sha256"
             },
